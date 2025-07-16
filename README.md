@@ -33,7 +33,7 @@ Movie_Recommendation/
 ---
 
 
-## How It Works
+
 Movie data is extracted from TMDb and processed using Pandas
 
 A similarity matrix is generated using content features like genres, overview, keywords, etc.
