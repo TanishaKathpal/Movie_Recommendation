@@ -6,6 +6,7 @@ A content-based movie recommendation system built with Python and Streamlit. Sel
 
 
 ---
+ [Live App](https://tanishakathpal-movie-recommendation-app-dlv6qw.streamlit.app)
 
 ##  Features
 
@@ -33,17 +34,22 @@ Movie_Recommendation/
 ---
 
 
+## Tech Stack
 
-Movie data is extracted from TMDb and processed using Pandas
+- Python
+- Pandas, Scikit-learn
+- Streamlit
+- Pickle for model storage
 
-A similarity matrix is generated using content features like genres, overview, keywords, etc.
+##  How It Works
 
-similarity.pkl stores cosine similarity scores between movies
+1. Dataset of movies and metadata processed using pandas
+2. Similarity scores calculated using cosine similarity
+3. When a user selects a movie, top 5 matches are recommended
 
-Streamlit UI allows users to select a movie and view recommendations
 
 ## Note
-Due to TMDb being intermittently blocked in some regions, poster images were not fetched yet. This feature may be added in future updates.
+Poster support is currently disabled due to intermittent blocking of TMDb in some regions. This feature may be added in future updates.
 
 
 
