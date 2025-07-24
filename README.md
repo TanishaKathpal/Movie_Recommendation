@@ -48,9 +48,8 @@ Movie_Recommendation/
 3. When a user selects a movie, top 5 matches are recommended
 
 
-## Note
-Poster support is currently disabled due to intermittent blocking of TMDb in some regions. This feature may be added in future updates.
-
+## Future Enhancements
+Poster Fetching By API
 
 
 
